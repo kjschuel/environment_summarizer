@@ -4,6 +4,7 @@ import sys
 import importlib
 from pathlib import Path
 
+# TODO: move to a config file
 MODULES_TO_IGNORE = ['os', 'src', 'sys', 'importlib', 'Path']
 
 def get_project_root() -> Path:
